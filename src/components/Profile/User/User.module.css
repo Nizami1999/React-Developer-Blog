@@ -1,0 +1,11 @@
+.photo{
+    margin-top: 1rem;
+    height: auto;
+    width: 50%;
+    border-radius: 100%;
+    border: 3px solid whitesmoke;
+}
+
+h2>span{
+    color: rgba(255, 255, 255, 0.493)
+}

@@ -1,0 +1,18 @@
+.ul{
+    margin: 1rem auto;
+    text-align: center;
+}
+
+.ul>li{
+    padding: 0 1rem;
+    display: inline;
+}
+
+.ul>li>a{
+    padding-bottom: 0.4rem;
+}
+
+
+.ul>li>a:hover{
+    border-bottom: 1px solid whitesmoke;
+}
