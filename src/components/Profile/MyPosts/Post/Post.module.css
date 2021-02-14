@@ -1,0 +1,47 @@
+.userImage{
+    width: 8%;
+    height: auto;
+    border-radius: 100%;
+    border: 1px solid whitesmoke;
+    margin-right: 1rem;
+}
+
+.innerText{
+    color: rgba(255, 255, 255, 0.493)
+}
+
+.userName{
+    margin-bottom: 0.5rem;
+    display: inline-block;
+}
+
+.textarea{
+    padding: 0.5rem;
+    text-size-adjust: 3rem;
+    outline: none;
+    border-radius: 5px;
+    resize: none;
+    font-size: 1rem;
+    width: 100%;
+    height: 250px;
+    margin-bottom: 1rem;
+    background-color: rgba(255, 255, 255, 0.815);
+}
+
+.post{
+    margin: 2rem 0;
+}
+
+hr{
+    margin: 1rem 0;
+}
+
+.likes{
+    color: rgba(255, 255, 255, 0.493);
+    float: right;
+}
+
+.likes span{
+    color: whitesmoke;
+    font-style: italic;
+}

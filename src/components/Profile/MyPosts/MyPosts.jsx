@@ -1,16 +1,16 @@
+import EnterPost from './EnterPost/EnterPost';
 import s from './MyPosts.module.css';
+import Post from './Post/Post';
+
 
 const MyPosts = () => {
     return (
         <div>
-            <h1>React Developer Blog</h1>
-            <p className={s.lorem1}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio dignissimos quis optio repellendus
-            laboriosam harum, labore rem, culpa ab voluptas assumenda esse! Corporis, unde fugiat.</p>
-            <form>
-                <textarea className={s.textarea} name="post" placeholder="Type some post..." ></textarea>
-                <button className={s.btn} >Add</button>
-                <button type="reset" className={s.btn} >Reset</button>
-            </form>
+            <EnterPost />
+            <Post message="Hello my name is Nizami and I have been evolving in the sphere of IT" likes="132" />
+            <Post message="Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis minus ratione accusamus molestias modi ullam? Illum similique alias dolor libero velit exercitationem sunt quis, ex consequuntur laudantium atque. Deserunt dolore possimus dolores, suscipit corporis iure repellendus laudantium? Illo ullam cupiditate architecto quos tempore distinctio laudantium optio repellat facilis dolor hic, ipsum exercitationem dolorum ipsam neque aspernatur libero ex aliquam error quibusdam illum maxime qui. Veritatis, veniam ipsa? Consequatur sunt eligendi quisquam recusandae explicabo pariatur fugit est architecto, aliquam libero iusto? Dolorem quo ratione earum dolorum consequatur est non possimus libero cupiditate et assumenda accusamus, maxime delectus modi in molestiae? Quos?" likes="213" />
+            <Post message="Hello my name is Nizami" likes="241" />
+            <Post message="Hello" likes="381" />
         </div>
     )
 }

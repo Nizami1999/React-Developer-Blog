@@ -1,13 +1,15 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import s from './Links.module.css';
 
 const Links = () => {
   return (
     <ul className={s.ul}>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Category</a></li>
-      <li><a href="#">Contact</a></li>
+      <li><NavLink to="/home" activeClassName={s.active}>Home</NavLink></li>
+      <li><NavLink to="/dialogs" activeClassName={s.active}>Dialogs</NavLink></li>
+      <li><NavLink to="/news" activeClassName={s.active}>News</NavLink></li>
+      <li><NavLink to="/music" activeClassName={s.active}>Music</NavLink></li>
+      <li><NavLink to="/settings" activeClassName={s.active}>Settings</NavLink></li>
     </ul>
   )
 }
