@@ -1,5 +1,5 @@
 import { Route } from 'react-router-dom';
-import './App.css';
+import './App.scss';
 import Dialogs from './components/Dialogs/Dialogs';
 import Header from './components/Header/Header';
 import Links from './components/Links/Links';

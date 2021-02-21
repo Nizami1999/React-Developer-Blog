@@ -1,4 +1,4 @@
-import s from './EnterPost.module.css';
+import s from './EnterPost.module.scss';
 
 const EnterPost = () => {
     return (

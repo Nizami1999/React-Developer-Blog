@@ -1,4 +1,4 @@
-import s from './User.module.css';
+import s from './User.module.scss';
 import photo from './Nizami.jpg';
 
 const User = () => {

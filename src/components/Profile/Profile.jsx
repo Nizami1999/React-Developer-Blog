@@ -1,6 +1,6 @@
 import MyPosts from './MyPosts/MyPosts';
 import User from './User/User';
-import s from './Profile.module.css';
+import s from './Profile.module.scss';
 
 const Profile = () => {
   return (
